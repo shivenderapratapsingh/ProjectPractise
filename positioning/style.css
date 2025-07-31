@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 1px solid black;
+    height:550px; 
+    width:500px;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    border: 1px solid black;
+    height:100px; 
+    width:100px;
+    background-color: red;
+    position: absolute;
+    top: 300px;
+}
+
+.box2{
+    border: 1px solid black;
+    height:100px; 
+    width:100px;
+    background-color: blue;
+    position: fixed;
+
+
+}
