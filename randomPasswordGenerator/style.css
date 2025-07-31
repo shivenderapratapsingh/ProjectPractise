@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(170, 170, 242);
+}
+
+.bigBoy{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 15vh;
+    left: 10vh;
+    /* background-color:gray */
+
+}
+
+.pass h1:nth-child(1){
+    color: rgb(250, 252, 250);
+}
+
+.pass h1:nth-child(2){
+    color: rgb(32, 87, 32)
+}
+
+.box input{
+    margin-bottom: 40px;
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding:10px;
+}
+.box{
+    position: relative;
+}
+img{
+    height: 30px;
+    transform: translate(-40px,10px);
+}
